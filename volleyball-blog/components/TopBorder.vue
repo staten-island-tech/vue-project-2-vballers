@@ -1,9 +1,12 @@
 <template>
     <div class="TopBorder">
-        <h2 class="titleHome">Home</h2>
-        <h2 class="titlePlayers">Players</h2>
-        <button @click="$emit('add')" class="HomeButton">Home</button>
-        <a href="secret">Home</a>
+
+        
+        
+        <a href="secret" class="titleHome">Home</a>
+        <a href="Players" class="titlePlayers">Meet Our Players</a>
+
+        
     </div>
 </template>
 
@@ -15,8 +18,14 @@
 
 <style scoped>
 
-.titleHome {
-    color:green
+.titleHome,.titlePlayers {
+color:green;
+text-align: left;
+margin: 4rem;
+font-size: 3rem;
+text-decoration: none;
+margin-top: 2rem;
+    
 }
 
 </style>
