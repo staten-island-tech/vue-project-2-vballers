@@ -1,6 +1,9 @@
 <template>
     <div class="TopBorder">
-        <h1 class="title">MSIT BOYS VOLLEYBALL</h1>
+        <h2 class="titleHome">Home</h2>
+        <h2 class="titlePlayers">Players</h2>
+        <button @click="$emit('add')" class="HomeButton">Home</button>
+        <a href="VolleyballBlog.netlify.app">Home</a>
     </div>
 </template>
 
@@ -11,5 +14,9 @@
 </script>
 
 <style scoped>
+
+.titleHome {
+    color:green
+}
 
 </style>
