@@ -1,16 +1,15 @@
 <template>
-
-<h2 class="door">
-    Home.
-</h2>
-
-
-
-
+    <div class="TopBorder">
+        <h1 class="title">MSIT BOYS VOLLEYBALL</h1>
+    </div>
 </template>
 
 <script>
-
-
-
+    export default {
+        
+    }
 </script>
+
+<style scoped>
+
+</style>
