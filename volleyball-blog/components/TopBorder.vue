@@ -3,7 +3,7 @@
         <h2 class="titleHome">Home</h2>
         <h2 class="titlePlayers">Players</h2>
         <button @click="$emit('add')" class="HomeButton">Home</button>
-        <a href="VolleyballBlog.netlify.app">Home</a>
+        <a href="secret">Home</a>
     </div>
 </template>
 
