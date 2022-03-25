@@ -7,7 +7,7 @@
     <nav class="navigation">
       <ul class="navigation__list navigation__list--inline">
         <li class="titleHome"><a href="index" class="navigation__link navigation__link--is-active">Home</a></li>
-        <li class="titlePlayers"><a href="Players" class="navigation__link">Meet Our Players</a></li>
+        <li class="titlePlayers"><a href="players" class="navigation__link">Meet Our Players</a></li>
       </ul>
     </nav>
 
