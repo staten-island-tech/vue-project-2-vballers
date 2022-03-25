@@ -1,5 +1,6 @@
 <template>
     <div>
+        <TopBorder></TopBorder>
         <h1>ur mom</h1>
 
     </div>
