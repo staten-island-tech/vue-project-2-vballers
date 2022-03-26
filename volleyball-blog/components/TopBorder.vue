@@ -6,8 +6,8 @@
 
     <nav class="navigation">
       <ul class="navigation__list navigation__list--inline">
-        <li class="titleHome"><a href="/pages/index.vue" class="navigation__link navigation__link--is-active">Home</a></li>
-        <li class="titlePlayers"><a href="/pages/players.vue" class="navigation__link">Meet Our Players</a></li>
+        <li class="titleHome"><NuxtLink to="/index" class="navigation__link navigation__link--is-active">Home</NuxtLink></li>
+        <li class="titlePlayers"><NuxtLink to="/players" class="navigation__link">Meet Our Players</NuxtLink></li>
       </ul>
     </nav>
 
