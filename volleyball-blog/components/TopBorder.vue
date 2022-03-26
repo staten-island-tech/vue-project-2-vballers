@@ -6,7 +6,7 @@
 
     <nav class="navigation">
       <ul class="navigation__list navigation__list--inline">
-        <li class="titleHome"><NuxtLink to="/index" class="navigation__link navigation__link--is-active">Home</NuxtLink></li>
+        <li class="titleHome"><NuxtLink to="/" class="navigation__link navigation__link--is-active">Home</NuxtLink></li>
         <li class="titlePlayers"><NuxtLink to="/players" class="navigation__link">Meet Our Players</NuxtLink></li>
       </ul>
     </nav>
