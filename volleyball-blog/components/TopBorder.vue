@@ -1,5 +1,5 @@
  <template>
-    <div class="TopBorder">
+    <!-- <div class="TopBorder">
         <header class="header sticky sticky--top js-header">
 
   <div class="grid">
@@ -14,137 +14,113 @@
   </div>
 
 </header>
+</div>-->
 
 
-        
-        
-        <!-- <a href="secret" class="titleHome">Home</a>
-        <a href="Players" class="titlePlayers">Meet Our Players</a> -->
 
-        
-    </div>
+
+
+ <div class="header">
+   <div class="inner_header">
+     <div class="logo_container">
+        <a href="https://www.siths.org/" to="/players" class="meow"><h1>MSIT</h1></a>
+     </div>
+
+     <ul class="navigation">
+       <NuxtLink to="/" class="links"><li>Home</li></NuxtLink>
+       <NuxtLink to="/players" class="links"><li>Meet Our Players</li></NuxtLink>
+       
+     </ul>
+
+   </div>
+ </div>
+
+    
+  
 </template>
 
 <script>
-    
+
+
 </script>
 
 <style scoped>
 
-/* .titleHome,.titlePlayers {
-color:green;
-text-align: left;
-margin: 4rem;
-font-size: 3rem;
-text-decoration: none;
-margin-top: 2rem;
-    
-}
- */
-/* helpers/grid.css */
-
-.grid {
-  inline-size: 90%;
-  margin-inline: auto;
-  max-inline-size: 48em;
-}
-
-/* helpers/sticky.css */
-
-.sticky {
-  position: sticky;
-  will-change: transform;
-}
-
-.sticky--top {
-  top: 0;
-}
-
-/* layout/base.css */
-
-* {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.75;
-  margin: 0;
-  min-block-size: 100vh;
-}
-
-/* layout/header.css */
 
 .header {
-  background-color: #fff;
-  padding-block: 1em;
-}
-
-
-.header::after {
-  bottom: 0;
-  box-shadow: 0 0.0625em 0.5em rgba(0, 0, 0, 0.3);
-  content: '';
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: opacity 0.3s;
-  z-index: -1;
-}
-
-.header.is-active::after {
-  opacity: 1;
-}
-
-/* layout/main.css */
-
-.main {
-  padding-block: 6em;
-}
-
-/* modules/headline.css */
-
-h1 {
-  margin-block: 0 0.5em;
-}
-
-/* modules/navigation.css */
-
-.navigation__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navigation__list--inline {
-  display: flex;
-  gap: 1.5em;
-}
-
-.navigation__link {
-  color: inherit;
+  width: 100%;
+  height: 120px;
   display: block;
-  padding-inline: 1em;
-  text-decoration: none;
+  background-color: rgba(220, 203, 115, 1);
 }
 
-.navigation__link--is-active {
-  background-color: #000;
-  border-radius: 999em;
-  color: #fff;
+.inner_header {
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
-/* modules/paragraph.css */
+.logo_container{ 
+  height: 100%;
+  display: table;
+  float:right;
 
-p {
-  padding-block: 1.5em;
 }
+
+.logo_container h1{ 
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 3rem;
+  
+}
+
+.navigation{
+  float: left;
+  height:100%;
+}
+
+.links {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+  text-decoration-color:white;
+}
+
+.navigation links:last-child{
+  padding-right: 0;
+}
+
+.navigation li{
+  display:table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+}
+
+
+
+
+/* .nav {
+  background-color: pink;
+  overflow: hidden;
+
+  
+
+}
+
+.links {
+  margin-left: 3rem;
+  font-size: 3rem;
+  padding: 14px 16px;
+} */
+
+
 
 </style> 
 
