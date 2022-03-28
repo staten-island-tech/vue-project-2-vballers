@@ -21,11 +21,13 @@
 
 
  <div class="header">
+
    <div class="inner_header">
      <div class="logo_container">
         <a href="https://www.siths.org/" to="/players" class="meow"><h1>MSIT</h1></a>
      </div>
 
+   
      <ul class="navigation">
        <NuxtLink to="/" class="links"><li>Home</li></NuxtLink>
        <NuxtLink to="/players" class="links"><li>Meet Our Players</li></NuxtLink>
@@ -33,9 +35,12 @@
      </ul>
 
    </div>
+      <img class="logo" src="https://i.imgur.com/x8ZjQJl.png" alt="logo">
+   
  </div>
+ 
 
-    
+
   
 </template>
 
@@ -54,6 +59,14 @@
   background-color: rgba(220, 203, 115, 1);
 }
 
+.logo{
+  height: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1rem;
+
+}
 .inner_header {
   width: 90%;
   height: 100%;
