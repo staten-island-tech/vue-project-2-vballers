@@ -1,23 +1,4 @@
  <template>
-    <!-- <div class="TopBorder">
-        <header class="header sticky sticky--top js-header">
-
-  <div class="grid">
-
-    <nav class="navigation">
-      <ul class="navigation__list navigation__list--inline">
-        <li class="titleHome"><NuxtLink to="/" class="navigation__link navigation__link--is-active">Home</NuxtLink></li>
-        <li class="titlePlayers"><NuxtLink to="/players" class="navigation__link">Meet Our Players</NuxtLink></li>
-      </ul>
-    </nav>
-
-  </div>
-
-</header>
-</div>-->
-
-
-
 
 
  <div class="header">
@@ -41,7 +22,6 @@
 
 <script>
 
-
 </script>
 
 <style scoped>
@@ -59,12 +39,14 @@
   height: 100%;
   display: block;
   margin: 0 auto;
+  background-color: rgba(220, 203, 115, 1);
 }
 
 .logo_container{ 
   height: 100%;
   display: table;
   float:right;
+  background-color: rgba(220, 203, 115, 1);
 
 }
 
@@ -74,12 +56,14 @@
   display: table-cell;
   vertical-align: middle;
   font-size: 3rem;
+  background-color: rgba(220, 203, 115, 1);;
   
 }
 
 .navigation{
   float: left;
   height:100%;
+  background-color: rgba(220, 203, 115, 1);
 }
 
 .links {
@@ -88,10 +72,12 @@
   float: left;
   padding: 0px 20px;
   text-decoration-color:white;
+  background-color: rgba(220, 203, 115, 1);
 }
 
 .navigation links:last-child{
   padding-right: 0;
+  background-color: rgba(220, 203, 115, 1);
 }
 
 .navigation li{
@@ -101,25 +87,9 @@
   color: white;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2rem;
-}
-
-
-
-
-/* .nav {
-  background-color: pink;
-  overflow: hidden;
-
-  
+  background-color: rgba(220, 203, 115, 1);
 
 }
-
-.links {
-  margin-left: 3rem;
-  font-size: 3rem;
-  padding: 14px 16px;
-} */
-
 
 
 </style> 

@@ -1,7 +1,5 @@
 <template>
     <div>
-        <TopBorder></TopBorder>
-        <h1>players</h1>
 
     </div>
 </template>
@@ -10,8 +8,6 @@
     
 </script>
 
-<style scoped>
-
-
+<style  scoped>
 
 </style>

@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <TopBorder></TopBorder>
-        <h1>players</h1>
+    <div class="boxed">
 
     </div>
 </template>
@@ -11,7 +9,8 @@
 </script>
 
 <style scoped>
-
-
+.boxed{
+    border: 10px solid white;
+}
 
 </style>

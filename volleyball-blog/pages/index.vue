@@ -1,13 +1,20 @@
 <template>
+  <div>
+    <div><TopBorder></TopBorder></div>
+    <div><FrontText></FrontText></div>
+    <div><FrontBox></FrontBox></div>
   
-<TopBorder></TopBorder>
-  <!-- <h1 class="title"> MSIT BOYS VOLLEYBALL </h1> -->
+  </div>
+
+  
   
 
 </template>
 
 <script>
+import FrontText from '../components/FrontText.vue';
 export default {
+  components: { FrontText },
   name: 'IndexPage',
   head() {
     return {
@@ -24,7 +31,10 @@ export default {
 
 
 
-
+html
+* {
+  background-color: black; 
+}
 
 
 
