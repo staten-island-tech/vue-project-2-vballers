@@ -1,23 +1,4 @@
  <template>
-    <!-- <div class="TopBorder">
-        <header class="header sticky sticky--top js-header">
-
-  <div class="grid">
-
-    <nav class="navigation">
-      <ul class="navigation__list navigation__list--inline">
-        <li class="titleHome"><NuxtLink to="/" class="navigation__link navigation__link--is-active">Home</NuxtLink></li>
-        <li class="titlePlayers"><NuxtLink to="/players" class="navigation__link">Meet Our Players</NuxtLink></li>
-      </ul>
-    </nav>
-
-  </div>
-
-</header>
-</div>-->
-
-
-
 
 
  <div class="header">
