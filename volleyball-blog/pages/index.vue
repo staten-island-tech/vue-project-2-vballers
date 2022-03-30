@@ -3,7 +3,7 @@
     <div><TopBorder></TopBorder></div>
     <div><FrontText></FrontText></div>
     <div><FrontBox></FrontBox></div>
-  
+    <div><Footer></Footer></div>
   </div>
 
   
@@ -33,9 +33,13 @@ export default {
 
 html
 * {
-  background-color: black; 
-}
+ 
+} 
 
+body
+* {
+ background-color: black;
+} 
 
 
 html, body,

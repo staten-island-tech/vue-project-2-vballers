@@ -14,9 +14,10 @@
        <NuxtLink to="/players" class="links"><li>Meet Our Players</li></NuxtLink>
        
      </ul>
+    <img class="logo" src="https://i.imgur.com/x8ZjQJl.png" alt="logo">
 
    </div>
-      <img class="logo" src="https://i.imgur.com/x8ZjQJl.png" alt="logo">
+     
    
  </div>
  
@@ -40,12 +41,12 @@
 }
 
 .logo{
-  height: 10rem;
+  height: 20rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -1rem;
-
+  background-color: transparent;
+  top: 50%;
 }
 .inner_header {
   width: 90%;

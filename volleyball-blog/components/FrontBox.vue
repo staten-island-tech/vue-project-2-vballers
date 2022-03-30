@@ -10,7 +10,8 @@
 
 <style scoped>
 .boxed{
-    border: 10px solid white;
+    border: 10px solid black;
+    width: 9rem;
 }
 
 </style>
