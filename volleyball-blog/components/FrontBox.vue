@@ -1,6 +1,6 @@
 <template>
-    <div class="boxed">
-
+    <div class="container">
+        <div class="box"></div>
     </div>
 </template>
 
@@ -9,8 +9,17 @@
 </script>
 
 <style scoped>
-.boxed{
+
+.container{
+    text-align: center;
+    margin-top: 40rem;
+}
+.box{
     border: 10px solid white;
+    display: inline-block;
+    width: 1250px;
+    height: 300px;
+    background-color: lightgray;
 }
 
 </style>
