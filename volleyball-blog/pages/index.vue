@@ -29,12 +29,7 @@ export default {
 
 <style>
 
-
-
-html
-* {
  
-} 
 
 body
 * {
