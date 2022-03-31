@@ -15,6 +15,7 @@
 
 <style scoped>
 
+
 .footer {
     width: 100%;
     height: 120px;
@@ -22,9 +23,9 @@
     background-color: rgba(220, 203, 115, 1);
     margin-bottom: 0px;
     position: absolute;
+    left: 0;
     bottom: 0;
-    width: 100%;
-
+    
 }
 
 .navigation{

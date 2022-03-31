@@ -39,6 +39,7 @@ html
 body
 * {
  background-color: black;
+ position: relative;
 } 
 
 

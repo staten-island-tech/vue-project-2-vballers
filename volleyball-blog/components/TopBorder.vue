@@ -46,8 +46,11 @@
   margin-left: auto;
   margin-right: auto;
   background-color: transparent;
-  top: 50%;
+  top: -40px;
+  right: 120px;
+ 
 }
+
 .inner_header {
   width: 90%;
   height: 100%;
