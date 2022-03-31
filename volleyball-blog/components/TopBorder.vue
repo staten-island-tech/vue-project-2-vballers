@@ -52,7 +52,7 @@
 }
 
 .inner_header {
-  width: 90%;
+  width: 100%;
   height: 100%;
   display: block;
   margin: 0 auto;
@@ -90,6 +90,7 @@
   padding: 0px 20px;
   text-decoration-color:white;
   background-color: rgba(220, 203, 115, 1);
+  left: 5rem;
 }
 
 .navigation links:last-child{
