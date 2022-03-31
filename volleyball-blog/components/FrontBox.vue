@@ -18,7 +18,7 @@
     border: 10px solid white;
     display: inline-block;
     width: 1250px;
-    height: 300px;
+    height: 500px;
     background-color: lightgray;
 }
 

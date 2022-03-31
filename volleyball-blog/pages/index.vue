@@ -34,6 +34,7 @@ export default {
 body
 * {
  background-color: black;
+ position: relative;
 } 
 
 
