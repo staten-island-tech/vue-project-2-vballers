@@ -14,15 +14,12 @@
 <style scoped>
 body
 * {
- background-color: black;
+ background-color: white;
  height: 100%;
  position: relative;
 } 
 
-h1{
-    height: 100rem;
 
-}
 html, body,
 * {
   font-size: 10px;
@@ -34,11 +31,7 @@ html, body,
 body
 * {
  background-color:white;
- background-image: url("https://i.imgur.com/p9Row1W.png");
- background-repeat: no-repeat;
- background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+ background-image: url("https://imgur.com/8adMbw2.png") 
 } 
 
 </style>
