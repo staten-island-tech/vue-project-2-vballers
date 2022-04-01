@@ -28,17 +28,18 @@
     
 }
 
-.navigation{
+.navigation {
   float: left;
   height:100%;
   background-color: rgba(220, 203, 115, 1);
 }
 
-.links {
-  height: 100%;
-
-  padding: 0px 20px;
-
+.links li{
+  height: 0%;
+  padding: 0px 10px;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  left: 10rem;
   background-color: rgba(220, 203, 115, 1);
 }
 

@@ -33,8 +33,8 @@ export default {
 
 body
 * {
- background-color: black;
- height: 100%;
+ background-color: #000000;
+
  position: relative;
 } 
 
