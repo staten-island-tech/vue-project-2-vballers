@@ -39,11 +39,8 @@
   padding: 0px 10px;
   margin-top: 3rem;
   font-size: 1.5rem;
-  color: aliceblue;
-  text-decoration: none;
+  left: 10rem;
   background-color: rgba(220, 203, 115, 1);
-  list-style-type: none;
-
 }
 
 
