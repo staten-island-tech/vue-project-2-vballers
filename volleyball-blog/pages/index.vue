@@ -3,6 +3,7 @@
     <div><TopBorder></TopBorder></div>
     <div><FrontText></FrontText></div>
     <div><FrontBox></FrontBox></div>
+
     <div><Footer></Footer></div>
   </div>
 
@@ -34,9 +35,17 @@ export default {
 body
 * {
  background-color: black;
-
  position: relative;
+ /*   background-image: url("https://i.imgur.com/HXS4jwH.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; */
+ 
 } 
+
+
+
 
 
 html, body,

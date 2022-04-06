@@ -3,6 +3,9 @@
         <ul class="navigation">
         <NuxtLink to="/" class="links"><li>Home</li></NuxtLink>
         <NuxtLink to="/players" class="links"><li>Meet Our Players</li></NuxtLink>
+        <a href="https://www.instagram.com/therock/?hl=en" ><h1 class="links">Instagram</h1></a>
+        <h1 class="links">we stay winning</h1>
+
        
         </ul>
 
