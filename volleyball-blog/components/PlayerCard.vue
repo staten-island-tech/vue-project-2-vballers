@@ -1,6 +1,7 @@
 <template>
-    <div class="container">
+    <div>
         <div class="box"></div>
+
     </div>
 </template>
 
@@ -10,17 +11,18 @@
 
 <style scoped>
 
-.container{
-    text-align: center;
-    margin-top: 40rem;
-}
 .box{
     border: 10px solid white;
-    display: inline-block;
-    width: 1250px;
-    height: 500px;
+    display: block;
+    width: 50rem;
+    height: 20rem;
     background-color: lightgray;
     border-radius: 5rem;
+    margin-top: 4rem;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    
 }
 
 </style>
