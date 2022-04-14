@@ -1,21 +1,21 @@
 <template>
     <div class="footer">
-      <div class="explore"></div>
+      <div class="explore cat"></div>
         <div class="navigation">
         <NuxtLink to="/" class="links"><li>Home</li></NuxtLink>
         <NuxtLink to="/players" class="links"><li>Meet Our Players</li></NuxtLink>
         </div>
         
-      <div class="visit"></div>
+      <div class="visit links cat"></div>
 
-      <div class="follow links">
+      <div class="follow links cat">
         <a href="https://www.instagram.com/therock/?hl=en" ><li class="links" id="ig">Instagram</li></a>
         <a href="https://www.instagram.com/therock/?hl=en" ><li class="links" id="ig">Twitter</li></a>
         <a href="https://www.instagram.com/therock/?hl=en" ><li class="links" id="ig">PSAL</li></a>
         <li class="links">we stay winning</li>
       </div>
 
-      <div class="legal"></div>
+      <div class="legal cat"></div>
       
 
 
@@ -44,7 +44,9 @@
     
 }
 
-
+.cat{
+  float: right;
+}
 
 
 .links li {
