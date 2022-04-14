@@ -5,7 +5,7 @@
 
    <div class="inner_header">
      <div class="logo_container">
-        <a href="https://www.siths.org/" to="/players" class="meow"><h1>MSIT</h1></a>
+        <a href="https://www.siths.org/" class="meow"><h1>MSIT</h1></a>
      </div>
 
    
@@ -64,6 +64,7 @@
   display: table;
   float:right;
   background-color: rgba(220, 203, 115, 1);
+  
 
 }
 
@@ -73,7 +74,9 @@
   display: table-cell;
   vertical-align: middle;
   font-size: 3rem;
-  background-color: rgba(220, 203, 115, 1);;
+  background-color: rgba(220, 203, 115, 1);
+  
+  
   
 }
 
@@ -107,6 +110,11 @@
   font-size: 2rem;
   background-color: rgba(220, 203, 115, 1);
 
+}
+
+.meow {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 
