@@ -1,6 +1,8 @@
 <template>
     <div>
-        <div class="box"></div>
+        <div class="box">
+            <div class="container-text">Enoch Chan</div>
+        </div>
 
     </div>
 </template>
@@ -14,15 +16,15 @@
 .box{
     border: 10px solid white;
     display: block;
-    width: 50rem;
+    width: 60%;
     height: 20rem;
     background-color: lightgray;
     border-radius: 5rem;
-    margin-top: 4rem;
-    align-items: center;
-    align-content: center;
     margin: auto;
-    
+    margin-top: 4rem;
 }
 
+.container-text {
+    background-color: none;
+}
 </style>
