@@ -2,8 +2,8 @@
   <div>
     <div><TopBorder></TopBorder></div>
     <div><FrontText></FrontText></div>
+    <div><Slider></Slider></div>
     <div><FrontBox></FrontBox></div>
-
     <div><Footer></Footer></div>
   </div>
 
@@ -28,7 +28,7 @@ export default {
 
 
 
-<style>
+<style >
 
  
 
