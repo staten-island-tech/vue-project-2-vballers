@@ -2,6 +2,7 @@
     <div>
         <div class="box">
             <div class="container-text">Enoch Chan</div>
+            <div class="headshotdiv"> <img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
         </div>
 
     </div>
@@ -25,6 +26,27 @@
 }
 
 .container-text {
-    background-color: none;
+    background-color: transparent;
+    font-size: 3rem;
+    
+    float:right;
+}
+
+.headshotdiv {
+    background-color: transparent;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.box {
+    opacity: .8;
+}
+
+.headshot {
+    width: 12%;
+    height: 12%;
+    margin-left: 5%;
+    border-radius: 50%;
+    background-color: transparent;
 }
 </style>

@@ -10,10 +10,9 @@
 
 <style scoped>
 
-.title{
+.title {
     color:white;
     margin-top: 3rem;
     font-weight: bold;
 }
-
 </style>
