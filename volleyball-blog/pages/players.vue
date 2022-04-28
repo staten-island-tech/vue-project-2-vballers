@@ -37,11 +37,14 @@ html, body,
 html
 * {
   background-color: transparent;
-  background-image: url("https://imgur.com/8adMbw2.png") ;
+  background-image: url("https://i.imgur.com/26Ht5k3.png") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 } 
+
+ /* https://i.imgur.com/26Ht5k3.png
+ https://imgur.com/8adMbw2.png */
 
 </style>
