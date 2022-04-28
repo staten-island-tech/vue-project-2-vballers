@@ -1,9 +1,15 @@
 <template>
     <div>
         <div class="box">
-            <div class="container-text">Enoch Chan</div>
-            <div class="headshotdiv"> <img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
-            <div class="player-position">Outside</div>
+            <div class="headshotdiv"> 
+                <img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt="">
+            </div>
+            <div class="layer1">
+                <h2 class="number">19</h2>
+                <h2 class="name">Enoch Chan</h2>
+            </div>
+            
+            <h2 class="player-position">Outside</h2>
         </div>
 
     </div>
@@ -24,15 +30,20 @@
     border-radius: 5rem;
     margin: auto;
     margin-top: 4rem;
+    background-image: none;
 }
 
-.container-text {
+.name {
     background-color: transparent;
     font-size: 3rem;
-    
     float:right;
 }
 
+.number{
+    background-color: transparent;
+    font-size: 3rem;
+    float: right;
+}
 .headshotdiv {
     background-color: transparent;
     margin-top: 3rem;
