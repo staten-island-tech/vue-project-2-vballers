@@ -1,12 +1,12 @@
 <template>
     <div>
         <div><TopBorder></TopBorder></div> 
-        <!-- <div><Footer></Footer></div> -->
         <div><PlayerCard></PlayerCard></div> 
         <div><PlayerCard></PlayerCard></div>
         <div><PlayerCard></PlayerCard></div>
         <div><PlayerCard></PlayerCard></div>
         <div><PlayerCard></PlayerCard></div>
+        <div><Footer></Footer></div>
 
     </div>
 </template>
@@ -34,9 +34,9 @@ html, body,
   box-sizing:border-box;
 }
 
-body
+html
 * {
-  background-color:white;
+  background-color: transparent;
   background-image: url("https://imgur.com/8adMbw2.png") ;
   background-repeat: no-repeat;
   background-size: cover;

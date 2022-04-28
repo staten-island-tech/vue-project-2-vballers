@@ -41,13 +41,14 @@
 }
 
 .logo{
-  height: 20rem;
+  height: 15rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
   background-color: transparent;
-  top: -40px;
+  top: -7px;
   right: 120px;
+
  
 }
 
