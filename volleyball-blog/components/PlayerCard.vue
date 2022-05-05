@@ -36,7 +36,7 @@
 .name {
     background-color: transparent;
     font-size: 3rem;
-    float:right;
+    float:left;
 }
 
 .number{
