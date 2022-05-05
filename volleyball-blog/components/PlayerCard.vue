@@ -26,11 +26,6 @@
     margin-top: 4rem;
 }
 
-.container-text {
-    background-color: transparent;
-    font-size: 3rem;
-    float:right;
-}
 
 .headshotdiv {
     background-color: transparent;
@@ -52,6 +47,12 @@
 
 .box {
     opacity: .8;
+}
+
+.container-text {
+    font-size: 3rem;
+    background-color: transparent;
+    float: right;
 }
 
 .player-position {
