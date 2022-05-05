@@ -28,17 +28,7 @@
     background-image: none;
 }
 
-.name {
-    background-color: transparent;
-    font-size: 3rem;
-    float:left;
-}
 
-.number{
-    background-color: transparent;
-    font-size: 3rem;
-    float: right;
-}
 .headshotdiv {
     background-color: transparent;
     margin-top: 3rem;
@@ -59,6 +49,12 @@
 
 .box {
     opacity: .8;
+}
+
+.container-text {
+    font-size: 3rem;
+    background-color: transparent;
+    float: right;
 }
 
 .player-position {
