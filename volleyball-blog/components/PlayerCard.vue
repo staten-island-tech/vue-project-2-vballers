@@ -25,15 +25,20 @@
     border-radius: 5rem;
     margin: auto;
     margin-top: 4rem;
+    background-image: none;
 }
 
-.container-text {
+.name {
     background-color: transparent;
     font-size: 3rem;
-    
-    float:right;
+    float:left;
 }
 
+.number{
+    background-color: transparent;
+    font-size: 3rem;
+    float: right;
+}
 .headshotdiv {
     background-color: transparent;
     margin-top: 3rem;
