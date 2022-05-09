@@ -14,7 +14,10 @@
        <NuxtLink to="/players" class="links"><li>Meet Our Players</li></NuxtLink>
        
      </ul>
-    <img class="logo" src="https://i.imgur.com/x8ZjQJl.png" alt="logo">
+     <!-- <Nuxt-link to="/" class="clickableImage"> -->
+        <img class="logo" src="https://i.imgur.com/x8ZjQJl.png" alt="logo">
+     <!-- </Nuxt-link> -->
+    
 
    </div>
      

@@ -28,6 +28,7 @@
     border-radius: 5rem;
     margin: auto;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -57,7 +58,7 @@
 }
 
 .player-number{
-    margin-left: 20%;
+    margin-left: 19%;
     vertical-align: middle;
     background-color: rgba(220, 203, 115, 1);
     color: black;
@@ -86,7 +87,7 @@
     font-size: 2rem;
     float: left;
     bottom: 44%;
-    left: 30%;
+    left: 31%;
 }
 
 
