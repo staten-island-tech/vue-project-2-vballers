@@ -23,7 +23,8 @@
     background-color: lightgray;
     border-radius: 5rem;
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 4rem; 
+    
 }
 
 
