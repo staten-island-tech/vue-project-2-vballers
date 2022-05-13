@@ -28,7 +28,7 @@
     border-radius: 5rem;
     margin: auto;
     margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 

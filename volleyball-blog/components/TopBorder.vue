@@ -5,7 +5,7 @@
 
    <div class="inner_header">
      <div class="logo_container">
-        <a href="https://www.siths.org/" class="meow"><h1>MSIT</h1></a>
+        <!-- <a href="https://www.siths.org/" class="meow"><h1>MSIT</h1></a> -->
      </div>
 
    
@@ -14,9 +14,11 @@
        <NuxtLink to="/players" class="links"><li>Meet Our Players</li></NuxtLink>
        
      </ul>
-     <!-- <Nuxt-link to="/" class="clickableImage"> -->
-        <img class="logo" src="https://i.imgur.com/x8ZjQJl.png" alt="logo">
-     <!-- </Nuxt-link> -->
+     
+        <!-- <a href="https://www.siths.org/"> -->
+          <img class="logo" src="https://i.imgur.com/x8ZjQJl.png" alt="logo">
+        <!-- </a> -->
+     
     
 
    </div>
