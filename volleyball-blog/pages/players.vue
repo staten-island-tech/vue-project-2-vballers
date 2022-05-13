@@ -5,7 +5,7 @@
         <div><PlayerCard></PlayerCard></div>
         <div><PlayerCard></PlayerCard></div>
         <div><PlayerCard></PlayerCard></div>
-        <div><PlayerCard></PlayerCard></div>
+        <div class="lastCard"><PlayerCard></PlayerCard></div>
         <div><Footer></Footer></div>
 
     </div>
@@ -18,8 +18,8 @@
 <style scoped>
 body
 * {
- background-color: white;
- height: 100%;
+ background-color: black;
+ height: 200%;
  position: relative;
 } 
 
@@ -37,12 +37,17 @@ html, body,
 html
 * {
   background-color: transparent;
-  background-image: url("https://i.imgur.com/26Ht5k3.png") ;
+  /* background-image: url("https://i.imgur.com/26Ht5k3.png") ; */
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 } 
+
+.lastCard{
+  margin-bottom: 19rem;
+}
 
  /* https://i.imgur.com/26Ht5k3.png
  https://imgur.com/8adMbw2.png */

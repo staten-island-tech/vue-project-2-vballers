@@ -23,14 +23,15 @@
 .container{
     text-align: center;
     margin-top: 40rem;
+    margin-bottom: 0rem;
 }
 .box{
     border: 10px solid white;
     display: inline-block;
     width: 1250px;
-    height: 300px;
+    height: 400px;
     background-color: lightgray;
-    bottom: 470px;
+    bottom: 370px;
 }
 
 h1{

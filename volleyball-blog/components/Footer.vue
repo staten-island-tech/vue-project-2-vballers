@@ -34,7 +34,7 @@
         <li class="Title2">FOLLOW</li>
         <a href="https://www.instagram.com/therock/?hl=en" ><li class="txt" id="ig">Instagram</li></a>
         <a href="https://www.instagram.com/therock/?hl=en" ><li class="txt" id="ig">Twitter</li></a>
-        <a href="https://www.instagram.com/therock/?hl=en" ><li class="txt" id="ig">PSAL</li></a>
+        <a href="https://www.psal.org/profiles/team-profile.aspx#016/31511" ><li class="txt" id="ig">PSAL</li></a>
       </div>
 
       <div class="legal cat"></div>
