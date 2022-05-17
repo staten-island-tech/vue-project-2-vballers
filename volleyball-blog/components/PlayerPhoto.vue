@@ -3,7 +3,10 @@
         <div class="box">
             <div class="pic"></div>
             <div class="box2"><img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
-            <h2 class="bio">eee</h2>
+            <h2 class="bio">Ouside / 6'1 / Senior / Staten Island, NY</h2>
+            <h2 class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Enim nec dui nunc mattis enim ut tellus elementum sagittis. Nulla malesuada pellentesque elit eget gravida. Suspendisse interdum consectetur libero id faucibus. Sit amet mattis vulputate enim nulla. Fringilla ut morbi tincidunt augue interdum. Aliquam ultrices sagittis orci a. Sed arcu non odio euismod lacinia at quis risus sed. Interdum consectetur libero id faucibus nisl tincidunt eget nullam non.
+            </h2>
         </div>
 
         
@@ -37,9 +40,18 @@
 
  .bio{
      background-color: transparent;
-     float: top;
+     bottom: 220px;
+     left: 400px;
+     font-size: 3.5rem;
  }
 
+
+.desc{
+    background-color: transparent;
+    font-size: 2rem;
+    line-height: 2;
+    bottom: 180px;
+}
 .box2{
     border: 10px solid rgba(220, 203, 115, 1);
     width: 250px;

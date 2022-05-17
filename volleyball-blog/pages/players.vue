@@ -2,9 +2,9 @@
     <div>
         <div><TopBorder></TopBorder></div> 
         <div><PlayerCard></PlayerCard></div> 
-        <div><PlayerCard></PlayerCard></div>
-        <div><PlayerCard></PlayerCard></div>
-        <div><PlayerCard></PlayerCard></div>
+        <div><PlayerCard2></PlayerCard2></div>
+        <div><PlayerCard3></PlayerCard3></div>
+        <div><PlayerCard4></PlayerCard4></div>
         <div class="lastCard"><PlayerCard></PlayerCard></div>
         <div><Footer></Footer></div>
 
