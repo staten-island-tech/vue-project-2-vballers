@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Nuxt-link to="/enoch" class="box">
+        <Nuxt-link to="/joe" class="box">
             <div class="headshotdiv"> <img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
             <div class="container-text player-number">17</div>
             <div class="container-text player-name">Joe Royzman</div>
