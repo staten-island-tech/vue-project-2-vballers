@@ -1,11 +1,14 @@
 <template>
     <div>
         <div><TopBorder></TopBorder></div> 
-        <div><PlayerCard></PlayerCard></div> 
-        <div><PlayerCard2></PlayerCard2></div>
-        <div><PlayerCard3></PlayerCard3></div>
-        <div><PlayerCard4></PlayerCard4></div>
-        <div class="lastCard"><PlayerCard></PlayerCard></div>
+        <div class="enoch"><PlayerCard></PlayerCard></div> 
+        <div class="pat"><PlayerCard6></PlayerCard6></div>
+        <div class="aidan"><PlayerCard4></PlayerCard4></div>
+        <div class="joe"><PlayerCard2></PlayerCard2></div>
+        <div class="donny"><PlayerCard3></PlayerCard3></div>
+        <div class="heo"><PlayerCard5></PlayerCard5></div>
+        <div class="lastCard roni"><PlayerCard7></PlayerCard7></div>
+        
         <div><Footer></Footer></div>
 
     </div>
