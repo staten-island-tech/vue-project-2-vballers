@@ -63,6 +63,10 @@
      width: 1230px;
      height: 480px;
      background-color: gray;
+     background-image: url(https://i.imgur.com/8DXruMR.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 40%;
      left: 0px;
  }
 

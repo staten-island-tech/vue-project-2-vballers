@@ -64,6 +64,10 @@
      height: 480px;
      background-color: gray;
      left: 0px;
+     background-image: url(https://i.imgur.com/02A01Vi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 35%;
  }
 
  .bio{

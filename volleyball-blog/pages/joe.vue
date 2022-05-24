@@ -62,7 +62,11 @@
  .pic{
      width: 1230px;
      height: 480px;
-     background-color: gray;
+    background-image: url(https://i.imgur.com/JCFJWzP.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center 50%;
+     
      left: 0px;
  }
 
