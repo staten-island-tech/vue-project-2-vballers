@@ -14,19 +14,19 @@ export default {
 
     methods: {
       animateOnScroll() {
-        this.$gsap.to(window, {duration: 2,/*  scrollTo: 1000 */})
+        const tl = this.$gsap.timeline({
+          delay: 0.3,
+        })
 
-        this.$gsap.to(".title", {
+        tl.from(".title", {
           /* x: -250, */
-          opacity: 1,
+          opacity: 0,
+          duration: 0.3,
+          stagger: 0.5,
+          
           /* ease: 'Power1.easeInOut', */
-          scrollTrigger: {
-            trigger: '.content',
-            pin: true,
-            end: 'bottom',
-           scrub: true 
           }
-        } )
+         )
 
       }
       }
