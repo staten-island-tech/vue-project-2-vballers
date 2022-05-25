@@ -1,23 +1,31 @@
 <template>
-    <div>
-        <div class="box">
+  <div>
+    <div><TopBorder></TopBorder></div>
+    <div class="box">
             <div class="pic"></div>
             <div class="box2"><img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
-            <div class="name-container"><h1 class="name">Enoch Chan</h1></div>
-            <h2 class="bio">Ouside / 6'1 / Senior / Staten Island, NY</h2>
+            <div class="name-container"><h1 class="name">Gunhee Lee</h1></div>
+            <h2 class="bio">Opposite / 5'10 / Senior / Staten Island, NY</h2>
             <h2 class="desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Enim nec dui nunc mattis enim ut tellus elementum sagittis. Nulla malesuada pellentesque elit eget gravida. Suspendisse interdum consectetur libero id faucibus. Sit amet mattis vulputate enim nulla. Fringilla ut morbi tincidunt augue interdum. Aliquam ultrices sagittis orci a. Sed arcu non odio euismod lacinia at quis risus sed. Interdum consectetur libero id faucibus nisl tincidunt eget nullam non.
             </h2>
         </div>
 
-        
-        
-    </div>
+ 
+    <div><FrontText></FrontText></div>
+    <div><Footer></Footer></div>
+  </div>
+
+  
+  
+
 </template>
 
 <script>
-    
+
 </script>
+
+
 
 <style scoped>
 
@@ -109,5 +117,12 @@
 
 
 
-
 </style>
+
+
+
+
+
+
+
+

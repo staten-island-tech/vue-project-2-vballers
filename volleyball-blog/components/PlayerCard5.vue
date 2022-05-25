@@ -1,14 +1,14 @@
 <template>
     <div>
-        <Nuxt-link to="/enoch" class="box">
+        <Nuxt-link to="/heo" class="box">
             <div class="headshotdiv"> <img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
-            <div class="container-text player-number">19</div>
-            <div class="container-text player-name">Enoch Chan</div>
+            <div class="container-text player-number">18</div>
+            <div class="container-text player-name">Chris Heo</div>
             <div class="bio">
-                <div class=" player-position">Outside / </div>
-                <div class=" player-height"> 6'1 / </div>
-                <div class=" player-year"> Senior / </div>
-                <div class=" player-ht"> Staten Island, NY</div>
+                <div class=" player-position">Setter / </div>
+                <div class=" player-height"> 5'8 / </div>
+                <div class=" player-year"> Junior / </div>
+                <div class=" player-ht"> Brooklyn, NY</div>
             </div>
             
         </Nuxt-link>
