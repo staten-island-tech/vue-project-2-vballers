@@ -14,16 +14,17 @@ export default {
 
     methods: {
       animateOnScroll() {
-        this.$gsap.from(window, {duration: 2, scrollTo: 1000})
+        this.$gsap.to(window, {duration: 2,/*  scrollTo: 1000 */})
 
-        this.$gsap.from(".title", {
-          x: 500,
-          ease: 'Power1.easeInOut',
+        this.$gsap.to(".title", {
+          /* x: -250, */
+          opacity: 1,
+          /* ease: 'Power1.easeInOut', */
           scrollTrigger: {
             trigger: '.content',
             pin: true,
             end: 'bottom',
-            scrub: true
+           scrub: true 
           }
         } )
 
