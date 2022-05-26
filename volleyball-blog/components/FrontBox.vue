@@ -81,4 +81,27 @@ h1{
     
 }
 
+
+@media screen and (max-width: 1404px) {
+ .box{
+   width: 60%;
+ }
+
+ .box2{
+   width: 50%;
+   
+ }
+  
+}
+
+@media screen and (max-width: 1124px) {
+ .box{
+   width: 60%;
+   height: 500px;
+ }
+
+ .box2{
+   width: 50%;
+ }
+}
 </style>
