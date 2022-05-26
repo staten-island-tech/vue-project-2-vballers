@@ -1,13 +1,13 @@
 <template>
     <div>
-        <Nuxt-link to="/roni" class="box">
+        <Nuxt-link to="/ethan" class="box">
             <div class="headshotdiv"> <img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
-            <div class="container-text player-number">22</div>
-            <div class="container-text player-name">Roni Aziz</div>
+            <div class="container-text player-number">10</div>
+            <div class="container-text player-name">Ethan Liang</div>
             <div class="bio">
                 <div class=" player-position">Middle / </div>
-                <div class=" player-height"> 6'3 / </div>
-                <div class=" player-year"> Sophomore / </div>
+                <div class=" player-height"> 5'11 / </div>
+                <div class=" player-year"> Senior / </div>
                 <div class=" player-ht"> Staten Island, NY</div>
             </div>
             

@@ -133,5 +133,21 @@ a:link {
 }
 
 
+@media screen and (max-width: 1410px) {
+ .links{
+   margin-left: 12%;
+ }
+  
+}
+
+@media screen and (max-width: 976px) {
+ .links{
+   margin-left: 7%;
+ }
+
+ .seagulls{
+   margin-left: 15%;
+ }
+}
 
 </style>

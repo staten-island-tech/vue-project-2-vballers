@@ -23,8 +23,8 @@ export default {
 
     methods: {
       animateOnScroll() {
-        const tlh = this.$gsap.timeline({
-          delay: .1,
+        const tl = this.$gsap.timeline({
+          delay: 1,
         })
 
         tlh.from(".player", {
