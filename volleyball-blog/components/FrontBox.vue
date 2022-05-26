@@ -15,6 +15,32 @@
 </template>
 
 <script>
+export default {
+
+
+     mounted(){
+        this.animateOnScroll()
+    },
+
+    methods: {
+      animateOnScroll() {
+        const tl = this.$gsap.timeline({
+          delay: .7,
+        })
+
+        tl.from(".container", {
+          /* x: -250, */
+          opacity: 0,
+          duration: 2,
+          stagger: 1.5,
+          
+          /* ease: 'Power1.easeInOut', */
+          }
+         ) }} 
+         
+
+}
+
     
 </script>
 

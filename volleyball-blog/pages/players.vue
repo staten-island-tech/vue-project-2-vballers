@@ -16,6 +16,41 @@
 </template>
 
 <script>
+export default {
+     mounted(){
+        this.animateOnScroll()
+    },
+
+    methods: {
+      animateOnScroll() {
+        const tl = this.$gsap.timeline({
+          delay: .1,
+        })
+
+        tl.from(".enoch", {
+          /* x: -250, */
+          opacity: 0,
+          duration: 1.5,
+          stagger: .5,
+          ease: 'Power1.easeInOut', 
+          }
+         )
+        tl.from(".pat", {
+          /* x: -250, */
+          opacity: 0,
+          duration: 1.5,
+          ease: 'Power1.easeInOut', 
+          }
+         )
+         tl.from(".aidan", {
+          /* x: -250, */
+          opacity: 0,
+          duration: 2,
+          ease: 'Power1.easeInOut', 
+          }
+         )
+         }} 
+}
     
 </script>
 
