@@ -25,7 +25,7 @@ export default {
     methods: {
       animateOnScroll() {
         const tl = this.$gsap.timeline({
-          delay: .05,
+          delay: 1,
         })
 
         tl.from(".enoch", {
@@ -46,7 +46,7 @@ export default {
          tl.from(".aidan", {
           /* x: -250, */
           opacity: 0,
-          duration: 2,
+          duration: 1,
           ease: 'Power1.easeInOut', 
           }
          )
