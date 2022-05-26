@@ -2,53 +2,39 @@
   <div>
     <div><TopBorder></TopBorder></div>
     <div><FrontText></FrontText></div>
-    <div><Slider></Slider></div>
     <div><FrontBox></FrontBox></div>
     <div><Footer></Footer></div>
   </div>
-
-  
-  
-
 </template>
 
 <script>
-import FrontText from '../components/FrontText.vue';
+import FrontText from "../components/FrontText.vue";
 export default {
   components: { FrontText },
-  name: 'IndexPage',
+  name: "IndexPage",
   head() {
     return {
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+      script: [
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+      ],
     };
   },
 };
-
 </script>
 
-
-
 <style>
+body * {
+  background-color: black;
+  position: relative;
+}
 
- 
-
-body
-* {
- background-color: black;
- position: relative;
- 
-} 
-
-
-
-
-
-html, body,
+html,
+body,
 * {
   font-size: 10px;
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 .title {
@@ -57,13 +43,4 @@ html, body,
   /* font-family: 'Wendy One', sans-serif;  */
   text-align: center;
 }
-
 </style>
-
-
-
-
-
-
-
-
