@@ -2,7 +2,7 @@
     <div>
         <Nuxt-link to="/roni" class="box">
             <div class="headshotdiv"> <img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
-            <div class="container-text player-number">21</div>
+            <div class="container-text player-number">22</div>
             <div class="container-text player-name">Roni Aziz</div>
             <div class="bio">
                 <div class=" player-position">Middle / </div>

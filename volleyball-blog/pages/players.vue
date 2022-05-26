@@ -4,7 +4,8 @@
         <div class="enoch"><PlayerCard></PlayerCard></div> 
         <div class="pat"><PlayerCard6></PlayerCard6></div>
         <div class="aidan"><PlayerCard4></PlayerCard4></div>
-        <div class="heo"><PlayerCard8></PlayerCard8></div>
+        <div class="ethan"><PlayerCard9></PlayerCard9></div>
+        <div class="gunhee"><PlayerCard8></PlayerCard8></div>
         <div class="joe"><PlayerCard2></PlayerCard2></div>
         <div class="donny"><PlayerCard3></PlayerCard3></div>
         <div class="heo"><PlayerCard5></PlayerCard5></div>
@@ -16,6 +17,16 @@
 </template>
 
 <script>
+
+window.onload = function() {
+
+  var timeline = new TimelineMax();
+  timeline.from("#enoch", 1, {x:-100},0)
+    .from("#pat", 1, {x:-100},0)
+    .from("#aidan", 1, {x:-100},0)
+    .from("#gunhee", 1, {x:100, autoAlpha:0})
+    
+}
     
 </script>
 
