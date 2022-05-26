@@ -21,7 +21,7 @@ export default {
         tl.from(".title", {
           /* x: -250, */
           opacity: 0,
-          duration: 0.3,
+          duration: 1.5,
           stagger: 0.5,
           
           /* ease: 'Power1.easeInOut', */
