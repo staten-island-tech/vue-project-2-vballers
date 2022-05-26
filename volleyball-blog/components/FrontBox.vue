@@ -28,15 +28,23 @@ export default {
           delay: .7,
         })
 
-        tl.from(".container", {
-          /* x: -250, */
+        tl.from(".box2", {
+          x: -500, 
           opacity: 0,
           duration: 2,
-          stagger: 1.5,
-          
-          /* ease: 'Power1.easeInOut', */
+         
           }
-         ) }} 
+         )
+         tl.from(".box", {
+          delay: .2,
+          opacity: 0,
+          duration: 2,
+         
+          }
+         )
+         
+         
+         }} 
          
 
 }
