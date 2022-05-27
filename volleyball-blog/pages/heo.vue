@@ -22,6 +22,28 @@
 </template>
 
 <script>
+export default {
+     mounted(){
+        this.animateOnScroll()
+    },
+
+    methods: {
+      animateOnScroll() {
+        const tlh = this.$gsap.timeline({
+          delay: .4,
+        })
+
+        tlh.from(".box", {
+          /* x: -250, */
+          opacity: 0,
+          duration: .75,
+          stagger: .3,
+          /* ease: 'Power1.easeInOut', */ 
+          }
+         )
+         }} 
+}
+    
 
 </script>
 

@@ -25,7 +25,7 @@ export default {
     methods: {
       animateOnScroll() {
         const tl = this.$gsap.timeline({
-          delay: .7,
+          delay: .5,
         })
 
         tl.from(".box2", {
@@ -36,7 +36,7 @@ export default {
           }
          )
          tl.from(".box", {
-          delay: .2,
+          delay: .1,
           opacity: 0,
           duration: 2,
          

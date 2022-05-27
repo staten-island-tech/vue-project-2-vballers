@@ -22,9 +22,29 @@
 </template>
 
 <script>
+export default {
 
 
+     mounted(){
+        this.animateOnScroll()
+    },
 
+    methods: {
+      animateOnScroll() {
+        const tl = this.$gsap.timeline({
+          delay: .1,
+        })
+
+        
+         tl.from(".box", {
+          delay: .2,
+          opacity: 0,
+          duration: 2,
+         
+          }
+         )
+         }} 
+}
 </script>
 
 
