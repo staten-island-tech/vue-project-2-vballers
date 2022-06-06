@@ -1,7 +1,10 @@
 <template>
     <div>
         <div><TopBorder></TopBorder></div> 
-        <div class="player enoch"><PlayerCard></PlayerCard></div> 
+
+        <div class="player enoch"><PlayerCard v-for="post in posts" :key="post.name" :title="post.name" :position="post.position"
+        ></PlayerCard></div> 
+
         <div class="player pat"><PlayerCard6></PlayerCard6></div>
         <div class="player aidan"><PlayerCard4></PlayerCard4></div>
         <div class="player gunhee"><PlayerCard8></PlayerCard8></div>
@@ -17,6 +20,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      posts: [],
+    }
+  },
      mounted(){
         this.animateOnScroll()
     },
@@ -35,7 +43,10 @@ export default {
           /* ease: 'Power1.easeInOut', */ 
           }
          )
-         }} 
+         }},
+    async fetch(){
+  this.posts = await this.$content('posts').fetch()
+    },
 }
     
 </script>

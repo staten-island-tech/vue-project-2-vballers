@@ -10,6 +10,11 @@
 <script>
 import FrontText from "../components/FrontText.vue";
 export default {
+  data() {
+    return {
+      posts: [],
+    }
+  },
   components: { FrontText },
   name: "IndexPage",
   head() {
@@ -19,7 +24,13 @@ export default {
       ],
     };
   },
+    
+
+
+
 };
+
+
 </script>
 
 <style>
