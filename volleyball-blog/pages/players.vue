@@ -2,8 +2,20 @@
     <div>
         <div><TopBorder></TopBorder></div> 
 
-        <div class="player enoch"><PlayerCard v-for="post in posts" :key="post.name" :title="post.name" :position="post.position"
-        ></PlayerCard></div> 
+        <div class="player enoch">
+
+          <PlayerCard 
+          v-for="post in posts" 
+          :key="post.name" 
+          :name="post.name" 
+          :position="post.position"
+          :slug="post.slug"
+          :hometown="post.hometown"
+          :number="post.number"
+          :age="post.age"
+        ></PlayerCard>
+        
+        </div> 
 
         <div class="player pat"><PlayerCard6></PlayerCard6></div>
         <div class="player aidan"><PlayerCard4></PlayerCard4></div>
