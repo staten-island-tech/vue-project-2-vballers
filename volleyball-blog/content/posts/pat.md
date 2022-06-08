@@ -7,5 +7,3 @@ hometown: Staten Island
 height: "6'1"
 number: "19"
 ---
-
-## Header

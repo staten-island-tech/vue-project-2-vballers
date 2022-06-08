@@ -6,6 +6,7 @@
 
           <PlayerCard 
           v-for="post in posts" 
+          :height="post.height"
           :key="post.name" 
           :name="post.name" 
           :position="post.position"
