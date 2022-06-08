@@ -44,6 +44,10 @@ export default {
             type: String,
             default: 'hometown',
         },
+        age:{
+            type: String, 
+            default: 'age',
+        }
 
 
 
