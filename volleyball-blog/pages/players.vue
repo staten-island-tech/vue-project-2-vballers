@@ -18,13 +18,13 @@
         
         </div> 
 
-        <div class="player pat"><PlayerCard6></PlayerCard6></div>
+        <!-- <div class="player pat"><PlayerCard6></PlayerCard6></div>
         <div class="player aidan"><PlayerCard4></PlayerCard4></div>
         <div class="player gunhee"><PlayerCard8></PlayerCard8></div>
         <div class="player joe"><PlayerCard2></PlayerCard2></div>
         <div class="player donny"><PlayerCard3></PlayerCard3></div>
         <div class="player heo"><PlayerCard5></PlayerCard5></div>
-        <div class="player lastCard roni"><PlayerCard7></PlayerCard7></div>
+        <div class="player lastCard roni"><PlayerCard7></PlayerCard7></div> -->
         
         <div><Footer></Footer></div>
 

@@ -1,7 +1,19 @@
 <template>
     <div>
-        <nuxt-link :to="{name: 'slug', params:{slug: slug} }">Click Here</nuxt-link>
-        <Nuxt-link to="/enoch" class="box">
+        <nuxt-link :to="{name: 'slug', params:{slug: slug} }" class="box"> <div class="headshotdiv"> <img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
+            <div class="container-text player-number">{{ number }}</div>
+            <div class="container-text player-name">{{ name }}</div>
+            <div class="bio">
+                <div class=" player-position">{{ position }} / </div>
+                <div class=" player-height"> {{ height }}/ </div>
+                <div class=" player-year"> {{ age }}  / </div>
+                <div class=" player-ht">{{ hometown }}</div>
+            </div></nuxt-link>
+
+        <h3>{{ name }}</h3>
+
+
+         <!-- <Nuxt-link to="/enoch" class="box">
             <div class="headshotdiv"> <img class="headshot" src="https://www.pinclipart.com/picdir/middle/142-1421318_abdu-sentamu-person-image-placeholder-clipart.png " alt=""></div>
             <div class="container-text player-number">{{ number }}</div>
             <div class="container-text player-name">{{ name }}</div>
@@ -12,7 +24,7 @@
                 <div class=" player-ht">{{ hometown }}</div>
             </div>
             
-        </Nuxt-link>
+        </Nuxt-link>  -->
 
     </div>
 </template>

@@ -1,5 +1,5 @@
 ---
-slug: Enoch Chan
+slug: Enoch-Chan
 name: Enoch Chan
 position: Outside Hitter
 age: Senior
