@@ -75,7 +75,7 @@ h1{
 
 }
 .box2{
-    border: 10px solid white;
+    border: 10px solid;
     display: inline-block;
     width: 900px;
     height: 600px;

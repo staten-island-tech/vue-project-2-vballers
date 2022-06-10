@@ -75,7 +75,7 @@
 }
 
 .logo_container h1{ 
-  color: white;
+  color: black;
   height: 100%;
   display: table-cell;
   vertical-align: middle;
@@ -97,7 +97,7 @@
   display: table;
   float: left;
   padding: 0px 20px;
-  text-decoration-color:white;
+  text-decoration-color:black;
   background-color: rgba(220, 203, 115, 1);
   left: 5rem;
 }
@@ -111,7 +111,7 @@
   display:table-cell;
   vertical-align: middle;
   height: 100%;
-  color: white;
+  color: black;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2rem;
   background-color: rgba(220, 203, 115, 1);
